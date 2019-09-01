@@ -12,10 +12,10 @@ int main()
     utt = vv - 1500;
     if(vv >= 1500){
         sts = sf + (vv * 0.03) + (utt * 0.05);
-        printf("O seu salario total é: %.2f\n", sts);
+        printf("O seu salario total eh: %.2f\n", sts);
     }else{
         sts = sf + (vv * 0.03);
-        printf("O seu salario total é: %.2f\n", sts);
+        printf("O seu salario total eh: %.2f\n", sts);
         }
 
 
