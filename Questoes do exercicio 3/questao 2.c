@@ -15,8 +15,8 @@ int main()
     scanf("%i", &d);
     sa = s - d + c;
     if (sa >= 0){
-    printf("Apresentar saldo positivo");
+    printf("Saldo atual: %i\nApresentar saldo positivo\n", sa);
    }else{
-        printf("Apresentar saldo negativo");}
+        printf("Saldo atual: %i\nApresentar saldo negativo\n", sa);}
     return 0;
 }
