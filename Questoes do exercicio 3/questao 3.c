@@ -3,13 +3,13 @@
 
 int main(){
 
-    int qa, qmax, qmin, qmedia;
+    float qa, qmax, qmin, qmedia;
     printf("digite a quantidade atual em estoque:\n");
-    scanf("%i", &qa);
+    scanf("%f", &qa);
     printf("digite a quantidade maxima no estoque:\n");
-    scanf("%i", &qmax);
+    scanf("%f", &qmax);
     printf("digite a quantidade minima no estoque:\n");
-    scanf("%i", &qmin);
+    scanf("%f", &qmin);
     qmedia = (qmax + qmin)/2;
     if (qa >= qmedia){
         printf("nao efetuar compra");
