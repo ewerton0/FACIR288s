@@ -4,7 +4,7 @@
 int main()
 {
 
-    float sf, vv, utt, sts, stn;
+    float sf, vv, utt, sts;
     printf("Digite o seu salario fixo:\n");
     scanf("%f", &sf);
     printf("Digie o valor das vendas efetuadas pelo vendedor da empresa:\n");
@@ -12,10 +12,10 @@ int main()
     utt = vv - 1500;
     if(vv >= 1500){
         sts = sf + (vv * 0.03) + (utt * 0.05);
-        printf("O seu salario total é: %.2f\n", sts);
+        printf("O seu salario total Ã©: %.2f\n", sts);
     }else{
-        stn = sf + (vv * 0.03);
-        printf("O seu salario total é: %.2f\n", stn);
+        sts = sf + (vv * 0.03);
+        printf("O seu salario total Ã©: %.2f\n", sts);
         }
 
 
